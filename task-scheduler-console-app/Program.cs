@@ -15,7 +15,6 @@ namespace task_scheduler_console_app
             try
             {
                 // Put your own logic which you want to perform on schedule basis
-
                 if (!File.Exists(path))
                 {
                     File.Create(path);
